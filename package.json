@@ -1,0 +1,35 @@
+{
+  "name": "node-version-check",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Check Node.js version requirements across a monorepo — find mismatches between .nvmrc, engines, and running Node",
+  "bin": {
+    "node-version-check": "./index.js",
+    "nvc": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "developer-tools",
+    "cli",
+    "nodejs",
+    "zero-dependencies",
+    "node-version",
+    "nvmrc",
+    "monorepo",
+    "engines"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/node-version-check"
+  },
+  "homepage": "https://github.com/NickCirv/node-version-check#readme",
+  "bugs": {
+    "url": "https://github.com/NickCirv/node-version-check/issues"
+  },
+  "files": [
+    "index.js"
+  ]
+}
