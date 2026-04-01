@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # node-version-check
 
 Zero-dependency CLI to check Node.js version requirements across a monorepo. Finds mismatches between `.nvmrc`, `.node-version`, `package.json engines`, `.tool-versions`, and your currently running Node.
